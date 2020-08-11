@@ -5,17 +5,19 @@
 # File: foo1.py
 # Project_Name: webCrawler
 # Content:
-from collections import  namedtuple
+from collections import namedtuple
 
 Response = namedtuple('Response', field_names=['name', 'age', 'sex'])
+
+
 def printa():
     name = '王帅'
     age = 18
     sex = 'man'
 
-    return  Response(name=name,
-             age=age,
-             sex=sex)
+    return Response(name=name,
+                    age=age,
+                    sex=sex)
 
 
 if __name__ == '__main__':
