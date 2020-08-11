@@ -6,6 +6,7 @@
 # Project_Name: webCrawler
 # Content:
 from collections import namedtuple
+import requests
 
 Response = namedtuple('Response', field_names=['name', 'age', 'sex'])
 
@@ -20,12 +21,26 @@ def printa():
                     sex=sex)
 
 
+class A():
+    def __init__(self)-> int:
+        self.name = 'wangshuai1'
+
+
+    def a(self) -> str:
+        name = 'wangshuai'
+        age = 18
+        return name, age
+
+
 if __name__ == '__main__':
-    res: Response = printa()
-    print(res._replace(age=17))
-    print(type(res._asdict()))
-    print(res)
-    dict1 = res._asdict()
-    print(dict1['sex'])
-    print(res.name)
-    print('难受  我想放弃了')
+    # res: Response = printa()
+    # print(res._replace(age=17))
+    # print(type(res._asdict()))
+    # print(res)
+    # dict1 = res._asdict()
+    # print(dict1['sex'])
+    # print(res.name)
+    # print('难受  我想放弃了')
+    a: A = A()
+    print(type(a.name), a.name)
+    print(type(a.a()), a.a())
