@@ -28,4 +28,4 @@ if __name__ == '__main__':
     dict1 = res._asdict()
     print(dict1['sex'])
     print(res.name)
-    print('hi')
+    print('难受  我想放弃了')
