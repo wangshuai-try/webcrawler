@@ -20,6 +20,6 @@ html = '''
 html =etree.HTML(html)
 
 content1 = html.xpath("//div[position()>2]") #取div位置大于2的 并且类包含three的
-
-for c in content1:
+q1
+for c in contenqt1:
     print(c.text)
