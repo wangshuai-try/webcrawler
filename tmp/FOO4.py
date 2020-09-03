@@ -33,5 +33,5 @@ from urllib.request import urlretrieve
 #     print(urlretrieve(book_urls, 'xiao.txt'))
 #     # with open('xiaoshuo.txt', 'a', encoding='utf-8') as f:
 #     #     f.write(urlretrieve(book_urls))
-
+aaa
 urlretrieve('https://read.qidian.com/chapter/3Q__bQt6cZEVDwQbBL_r1g2/GSlTBhSdiqP4p8iEw--PPw2', 'xiaoshuo.txt')
