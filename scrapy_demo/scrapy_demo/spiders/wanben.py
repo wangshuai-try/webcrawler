@@ -5,7 +5,7 @@ from scrapy.http import Response, HtmlResponse, Request
 from scrapy_demo.items import *
 
 
-class WanbenSpider (scrapy.Spider):
+class WanbenSpider(scrapy.Spider):
     name = 'wanben'
     allowed_domains = ['qidian.com', 'book.qidian.com', 'read.qidian.com', 'vipreader.qidian.com']
     start_urls = ['https://www.qidian.com/finish']
